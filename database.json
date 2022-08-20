@@ -1,0 +1,152 @@
+{
+  "Website": "Portfolio",
+  "active": true,
+  
+  "testimonials": [
+    {
+      "name": "Ramla M",
+      "image": "media/testimonial/2.png",
+      "designation": [
+        "Assistant Professor",
+        "Department of Computer Applications,",
+        "College of Science and Humanitites",
+        "SRM IST"
+      ],
+      "content": [
+        "A tremendous student who is an asset to the department. He is exceptionally assiduous. He is not only good-humored and friendly but also is ever-ready to assist his fellow peers and explore new horizons with them. Being Tech Savvy, looking through the concepts and applying the context is his technology quotient.",
+        "The best part of him is that he would reach out in a very respectful and kind manner. Furthermore, his questions are always thoughtful and penetrating. Brimming with inquisitive thinking and innovative ideas makes him stand apart. Needless to say, He is a true quest for knowledge."
+      ]
+    },
+    {
+      "name": "Einstein Little Champs",
+      "image": "media/testimonial/3.png",
+      "designation": [
+        "Client,",
+        "Buddy Developer"
+      ],
+      "content": [
+        "It was great working with Buddy Developer Team, especially want to convey our thanks to Abhijith, for making all the changes patiently and getting our projects live timely. The work was effective and efficient. Amazing response and will definitely recommend Buddy Developer to others."
+      ]
+    },
+    {
+      "name": "B Udayakumar",
+      "image": "media/testimonial/1.png",
+      "designation": [
+        "IT Coordinator"
+      ],
+      "content": [
+        "This team is extremely client focused and highly responsible with profound understanding of our requirements. It is certified that the assignment work given to BUDDY Developer has been completed successfully. We are enormously satisfied with their quality and team work."
+      ]
+    }
+  ],
+
+  "badges": [
+    {
+      "name": "AI Appreciate 2021",
+      "desc": "AI FOR ALL | DIGITAL INDIA - INTEL INDIA",
+      "date": "Jan 2022",
+      "img": "media/badges/Abhijith Udayakumar_AI_APPRECIATE_BADGE.png" 
+    },
+    {
+      "name": "Blog",
+      "desc": "Self Starter | Hashnode",
+      "date": "July 2021",
+      "img": "media/badges/hashnode_starter.png" 
+    },
+    {
+      "name": "AI Aware 2021",
+      "desc": "AI FOR ALL | DIGITAL INDIA - INTEL INDIA",
+      "date": "Jan 2022",
+      "img": "media/badges/Abhijith Udayakumar_AI_AWARE_BADGE.png"
+    }
+  ],
+
+  "certificates": [
+    {
+      "name": "Cognitive Application",
+      "desc": "Certificate of Participation | TECH-ANALOGY",
+      "date": "Aug 2021",
+      "img": "media/certificates/cognitive.png"
+    },
+    {
+      "name": "Cognitive Application",
+      "desc": "Certificate of Excellence | TECH-ANALOGY",
+      "date": "Aug 2021",
+      "img": "media/certificates/cognitive2.png"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "desc": "Certificate of Completion | MyCaptain",
+      "date": "Jan 2021",
+      "img": "media/certificates/AI-2.png"
+    },
+    {
+      "name": "Data Analytics",
+      "desc": "Certificate of Participation | MyCaptain",
+      "date": "Feb 2021",
+      "img": "media/certificates/DataAnalaytics-1.png"
+    },
+    {
+      "name": "Artificial Intelligence",
+      "desc": "Certificate of Competency | MyCaptain",
+      "date": "Jan 2021",
+      "img": "media/certificates/AI-1.png"
+    },
+    {
+      "name": "SRM WRRC",
+      "desc": "Certificate of Excellence | SRM WRRC",
+      "date": "Oct 2021",
+      "img": "media/certificates/srmredesign.png"
+    },
+    {
+      "name": "Internshala Student Partner",
+      "desc": "",
+      "date": "2021",
+      "img": "media/certificates/internshala.png"
+    },
+    {
+      "name": "Python Programming Contest",
+      "desc": "Certificate of Achievement | UIT",
+      "date": "Aug 2020",
+      "img": "media/certificates/UIT - python.png"
+    }
+  ],
+
+  "partners": [
+    {
+      "img": "media/collab/jyothis.png"
+    },
+    {
+      "img": "media/collab/tzd.png"
+    },
+    {
+      "img": "media/collab/gcs.png"
+    },
+    {
+      "img": "media/collab/ash.png"
+    },
+    {
+      "img": "media/collab/allsaints.png"
+    },
+    {
+      "img": "media/collab/pelleti.png"
+    },
+    {
+      "img": "media/collab/smilelife.png"
+    },
+    {
+      "img": "media/collab/elc.png"
+    }
+  ],
+
+  "social":{
+      "Github": "https://github.com/Abhijith14",
+      "Kaggle": "https://www.kaggle.com/abhijithudayakumar",
+      "LinkedIn" : "https://www.linkedin.com/in/abhijith-udayakumar-6372b91a3/",
+      "Resume" : "https://github.com/Abhijith14/Abhijith14/raw/master/Resume.pdf",
+      "Instagram": "https://www.instagram.com/a_b_h_i_j_i_t_h._.14/",
+      "Twitter": "https://twitter.com/AbhijithUdayak1",
+      "Facebook": "https://www.facebook.com/abhijith.udayakumar.14",
+      "blog": "https://abhijith14.hashnode.dev"
+    }
+}
