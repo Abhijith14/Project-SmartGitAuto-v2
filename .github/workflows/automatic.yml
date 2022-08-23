@@ -28,4 +28,4 @@ jobs:
     - name: execute py script # run main.py
       env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      run: python main2.py
+      run: python main.py
