@@ -4,6 +4,7 @@ import json
 from github import Github, GithubException
 import os
 import tqdm
+import time
 
 repo_list = []
 sorted_categories = ["Artificial Intelligence", "Python", "VB.NET", "C/C++", "Java", "Apps", "C#", "Websites", "Others"]
@@ -247,7 +248,7 @@ def save(json_file):
         except GithubException as e:
             print("Database not found, breaking from the loop...")
             break
-
+    time.sleep(5)
     repo.create_file("database.json", "db created", json_file)
 
 
