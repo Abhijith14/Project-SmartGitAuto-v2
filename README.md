@@ -11,7 +11,7 @@
 
 <p align="center">
 <a href="https://github.com/Abhijith14/Project-SmartGitAuto-v2.git " target="_blank">
-    <img src="https://img.shields.io/badge/version- 1.0.0 -blue?style=for-the-badge&logo=none" alt="Project_CONNECT version" />
+    <img src="https://img.shields.io/badge/version- 2.0.0 -blue?style=for-the-badge&logo=none" alt="Project_CONNECT version" />
 </a>&nbsp;
 <a href="https://www.python.org/" target="_blank">
     <img src="https://img.shields.io/badge/PYTHON-3.6+-00ADD8?style=for-the-badge&logo=python" alt="python version" />
