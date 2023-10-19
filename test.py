@@ -12,4 +12,4 @@ secrets = repo.get_secrets()
 
 # Print the secrets and their values
 for secret in secrets:
-    print(secret.name, "=", secret.value)
+    print(secret.name, "=", secret.created_at, "=", secret.updated_at, "=", secret.url)
