@@ -1,0 +1,20 @@
+name: Detect Secret Change
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  detect-secret-change:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for secret change
+        uses: gitleaks/gitleaks-action@v7.0.0
+        with:
+          config-path: .gitleaks.toml
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Print message
+        if: github.event_name == 'push' && steps.check-for-secret-change.outcome == 'success'
+        run: echo "secrets updated!!"
