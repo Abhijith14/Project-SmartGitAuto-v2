@@ -13,7 +13,7 @@ jobs:
 
       - name: Scan for Secrets
         id: gitleaks
-        uses: zricethezav/gitleaks-action@v4
+        uses: zricethezav/gitleaks-action@v2
 
       - name: Extract and Append Secrets
         run: |
