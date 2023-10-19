@@ -1,20 +1,30 @@
-name: Detect Secret Change
+name: GitHub Action Secrets Tracking
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
-  detect-secret-change:
+  update_secrets_file:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check for secret change
-        uses: gitleaks/gitleaks-action@v2
-        with:
-          config-path: .gitleaks.toml
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Scan for Secrets
+        id: gitleaks
+        uses: zricethezav/gitleaks-action@v4
+
+      - name: Extract and Append Secrets
+        run: |
+          # Extract the secrets found by GitLeaks and append them to secrets.txt
+          secrets_found="$(echo "${{ steps.gitleaks.outputs.scan }}" | jq -r '.foundCollection | keys | .[]')"
+
+          for secret in $secrets_found; do
+            if ! grep -q "$secret" secrets.txt; then
+              echo "$secret" >> secrets.txt
+              echo "New secret added to secrets.txt: $secret"
+            fi
+          done
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-      - name: Print message
-        if: github.event_name == 'push' && steps.check-for-secret-change.outcome == 'success'
-        run: echo "secrets updated!!"
